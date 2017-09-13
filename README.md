@@ -244,7 +244,7 @@ service apache2 restart
 
 ## Acesso
 
-acesse: 
+ 
 
 http://servidor/zabbix
 
