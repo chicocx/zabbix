@@ -123,10 +123,17 @@ FpingLocation=/usr/bin/fping
 </pre>
 
 
+## Scripts de inicialização
 
+Edite o arquivo
 
+<pre>
 vim  /etc/init.d/zabbix_server
+</pre>
 
+Conteúdo
+
+<pre>
 #!/bin/sh
 #
 # Zabbix daemon start/stop script.
@@ -163,9 +170,17 @@ case "$1" in
  ;;
 esac
 exit 0
+</pre>
 
+Edite o arquivo
+
+<pre>
 vim /etc/init.d/zabbix_agentd
+</pre>
 
+Com o conteúdo
+
+<pre>
 #!/bin/sh
 #
 # Zabbix agent start/stop script.
@@ -202,21 +217,35 @@ case "$1" in
  ;;
 esac
 exit 0
+</pre>
 
+Torne os arquivos executáveis
 
+<pre>
 chmod +x /etc/init.d/zabbix_server /etc/init.d/zabbix_agentd
+</pre>
 
+Ainda, execute
+
+<pre>
+update-rc.d -f zabbix_server defaults
+update-rc.d -f zabbix_agentd defaults
+</pre>
+
+## Inicialização de serviços
+
+<pre>
 service apache2 restart
 
 /etc/init.d/zabbix_server start
 /etc/init.d/zabbix_agentd start
+</pre>
 
 
-update-rc.d -f zabbix_server defaults
-update-rc.d -f zabbix_agentd defaults
-
+## Acesso
 
 acesse: 
+
 http://<servidor>/zabbix
 
 Usuario: Admin
