@@ -246,7 +246,7 @@ service apache2 restart
 
 acesse: 
 
-http://<servidor>/zabbix
+http://servidor/zabbix
 
 Usuario: Admin
 Senha: zabbix
