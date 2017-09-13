@@ -248,5 +248,7 @@ acesse:
 
 http://servidor/zabbix
 
+<pre>
 Usuario: Admin
 Senha: zabbix
+</pre>
