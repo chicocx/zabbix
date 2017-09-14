@@ -257,5 +257,7 @@ Senha: zabbix
 
 http://franciscocalaca.com/downloads/zabbix.ova
 
+<pre>
 Usuário ubuntu: aluno
 Senha ubuntu: 123456
+</pre>
