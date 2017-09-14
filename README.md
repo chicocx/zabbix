@@ -252,3 +252,10 @@ http://servidor/zabbix
 Usuario: Admin
 Senha: zabbix
 </pre>
+
+## Máquina completa
+
+http://franciscocalaca.com/downloads/zabbix.ova
+
+Usuário ubuntu: aluno
+Senha ubuntu: 123456
