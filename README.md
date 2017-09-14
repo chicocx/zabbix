@@ -11,7 +11,7 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key a
 
 apt-get update
 
-apt-get -y install build-essential snmp vim libssh2-1-dev libssh2-1 libopenipmi-dev libsnmp-dev wget libcurl4-gnutls-dev fping libxml2 libxml2-dev curl libcurl3-gnutls libcurl3-gnutls-dev libiksemel-dev libiksemel-utils libiksemel3 libxml2 libxml2-dev ssh python-software-properties oracle-java8-installer oracle-java8-set-default apt-get install -y apache2 php5 php5-pgsql postgresql-9.6 postgresql-client
+apt-get -y install build-essential snmp vim libssh2-1-dev libssh2-1 libopenipmi-dev libsnmp-dev wget libcurl4-gnutls-dev fping libxml2 libxml2-dev curl libcurl3-gnutls libcurl3-gnutls-dev libiksemel-dev libiksemel-utils libiksemel3 libxml2 libxml2-dev ssh python-software-properties oracle-java8-installer oracle-java8-set-default apache2 php5 php5-pgsql postgresql-9.6 postgresql-client
 libapache2-mod-php5 php5-gd php-net-socket libpq5 libpq-dev
 </pre>
 
